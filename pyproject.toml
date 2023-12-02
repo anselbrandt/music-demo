@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "music-demo"
+version = "0.1.0"
+description = ""
+authors = ["anselbrandt <ansel@anselbrandt.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.11.6"
+music21 = "^9.1.0"
+tqdm = "^4.66.1"
+tensorflow = "^2.15.0"
+pandas = "^2.1.3"
+scikit-learn = "^1.3.2"
+simpletransformers = "^0.64.3"
+torch = "^2.1.1"
+ipywidgets = "^8.1.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.27.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
